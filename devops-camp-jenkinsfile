@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo "Cloning application repository"
                 //TODO("Lab 3 - Introduction to Automated Builds"): add github url
-                sh 'git clone 'https://github.com/aamin17/afs-labs-student'
+                sh 'git clone https://github.com/aamin17/afs-labs-student.git'
                 //TODO("Lab 4 - Artifact Management"): add COMMIT_HASH variable
             }
         }
